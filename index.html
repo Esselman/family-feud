@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Family Feud</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+
+      <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+  <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.4/TweenMax.min.js'></script>
+  <!-- <script src="images/question.js"></script> -->
+  <div id='awardTeam1' data-team='1' class='button'><<</div>
+  <span id='questionNumber'></span>
+  <div id='awardTeam2' data-team='2' class='button'>>></div>
+  <!-- <div id='strike' class='img-button'>
+    <img class='thumbnail' src='images/strike.png'></>
+  </div> -->
+  <div id='prevQuestion' class='button bottom blue'>Prev <<</div>
+  <div id='nextQuestion' class='button bottom right blue'>Next >></div>
+  <input id="strikeCount" value="0" type="hidden">
+  <audio id="clang" src="sounds/clang.wav"></audio>
+  <audio id="buzz" src="sounds/buzzer.wav"></audio>
+  <audio id="dings" src="sounds/dings.wav"></audio>
+    <script  src="js/index.js"></script>
+
+
+
+</body>
+</html>
